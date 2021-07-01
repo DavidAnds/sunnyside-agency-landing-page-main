@@ -12,10 +12,7 @@
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
   <!-- Header -->
@@ -171,10 +168,42 @@
     <!-- Gallery -->
 
     <section class="gallery">
-      <img src="./images/desktop/image-gallery-cone.jpg" alt="images of a cone" srcset="">
-      <img src="./images/desktop/image-gallery-cone.jpg" alt="images of a cone" srcset="">
-      <img src="./images/desktop/image-gallery-cone.jpg" alt="images of a cone" srcset="">
-      <img src="./images/desktop/image-gallery-cone.jpg" alt="images of a cone" srcset="">
+      <img alt="gallery images of milkbottles" 
+      srcset=" ./images/mobile/image-gallery-milkbottles.jpg 376w,
+      ./images/desktop/image-gallery-milkbottles.jpg 720w
+     "
+      sizes="(max-width: 800px) 376px,
+      720px"
+      src="./images/desktop/image-gallery-milkbottles.jpg"
+      >
+
+      <img alt="gallery images of an orange " 
+      srcset=" ./images/mobile/image-gallery-orange.jpg 376w,
+      ./images/desktop/image-gallery-orange.jpg 720w"
+      
+      sizes="(max-width: 800px) 376px,
+      720px"
+      src="./images/desktop/image-gallery-orange.jpg"
+      >
+
+      <img alt="gallery images of a sugar-cubes" 
+      srcset="./images/mobile/image-gallery-sugar-cubes.jpg 376w,
+      ./images/desktop/image-gallery-sugarcubes.jpg 720w"
+      
+      sizes="(max-width: 800px) 376px,
+      720px"
+      src="./images/desktop/image-gallery-sugar-cubes.jpg"
+      >
+
+      <img alt="gallery images of a cone" 
+      srcset="./images/mobile/image-gallery-cone.jpg 376w,
+      ./images/desktop/image-gallery-cone.jpg 720w"
+      
+      sizes="(max-width: 800px) 376px,
+      720px"
+      src="./images/desktop/image-gallery-cone.jpg"
+      >
+    
     </section>
 
     <!-- Footer -->
@@ -202,6 +231,11 @@
 
       </div>
     </footer>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">David Andriason</a>.
+    </div>
     
   </main>
   <!--
@@ -229,10 +263,7 @@
  
   Contact -->
 
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+ 
   <script src="./script.js"></script>
 </body>
 </html>

@@ -579,9 +579,10 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 }
+
 .gallery img {
-    display: block;
     width: 25%;
+    display: block;
 }
 
 @media screen and (max-width: 800px) {
@@ -628,9 +629,31 @@ footer a {
     color: var(--dark-moderate-cyan);
     font-size: 1rem;
 }
+footer a:hover {
+    color: var(--white);
+}
+
+footer a:hover path {
+    fill: var(--white);
+}
+
 
 .social-networks {
     max-width: 200px;
     width: 60%;
 }
 
+
+/* **********************************
+    ************ attribution ************* */
+
+.attribution { 
+padding-bottom: 10px;
+background-color: var(--moderate-cyan);
+font-size: 11px;
+text-align: center;
+ }
+.attribution a {
+    color: var(--desaturated-cyan);
+ }
+ 
